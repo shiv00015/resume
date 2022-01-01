@@ -1,0 +1,180 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.main-content{
+    margin-top:30px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 300px 600px;
+    justify-content:center;
+    min-height: 1000px;
+}
+
+ul{
+    list-style: none;
+}
+
+.left-section{
+    background-color: #ad0101;
+    padding: 30px;
+
+}
+.rigth-section{
+    background-color: #f13535;
+}
+.imgv{
+    padding: 1rem;
+    display: block;
+    margin: auto;
+    border: 5px solid;
+    border-radius: 30%;
+    width: 60%;
+}
+
+.name{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+}
+
+.designation{
+    color: white;
+    font-size: 1 rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+
+.description{
+    color: white;
+    font-size: 0.75;
+    text-align: center;
+    padding: 1rem;
+}
+.social-div{
+    display: flex;
+    justify-content: center;
+    margin-bottom:10px;
+}
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-instagram {
+    color: rgb(31, 97, 238);
+  }
+.fa-github {
+    color: rgb(31, 97, 238);
+}
+.fa-linkedin {
+    color: rgb(31, 97, 238);
+  }
+.lit{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.skills
+{
+    color: white;
+    font-size: 0.75 rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1 rem;
+    padding-bottom: 1 rem;
+    padding-left: 0.5 rem;
+    padding-right: 0.5 rem;
+    margin-bottom: 30px;
+    margin-top:30px;
+}
+
+.skill-name{
+    color: white;
+    font-size: 0.65 rem;
+    font-weight: 0.65 rem;
+    text-align: left;
+    padding-bottom: 0.5 rem;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+progress{
+    border: 1px white solid;
+    height: 4px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+/* Right section */
+
+
+.right-main-content
+{
+    padding: 2rem 3rem 2rem 3rem;
+    color:white;
+}
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+
+/* 
+.About-me h3{
+    letter-spacing: 1px;
+    padding: 0.5 rem;
+} */
+
+.about-details{
+    margin: 10px;
+    padding: 10px;
+}
+.edu-details {
+    margin: 10px;
+    padding: 10px;
+}
+
+.details-p{
+    word-spacing: 2px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.exp-details{
+    margin: 10px;
+    word-spacing: 1px;
+    padding: 10px;
+}
+
+
+@media all and (max-width:674px)
+{
+    .main-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content:center;
+        width: 90%;
+
+    }
+
+}
