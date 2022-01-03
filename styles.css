@@ -11,6 +11,7 @@
     grid-template-columns: 300px 600px;
     justify-content:center;
     min-height: 1000px;
+    /* width:90%; */
 }
 
 ul{
@@ -19,18 +20,21 @@ ul{
 
 .left-section{
     background-color: #ad0101;
-    padding: 30px;
     grid-column: span 1;
 
+}
+.left-content
+{
+    padding: 1 rem;
 }
 .rigth-section{
     grid-column-start: 300px;
     grid-column-end: 1000px;
     background-color: #f13535;
     grid-column: span 1 / span 2;
+    /* width:90%; */
 }
 .profile-image{
-    padding: 1rem;
     display: block;
     margin: auto;
     border: 5px solid;
@@ -39,7 +43,6 @@ ul{
 }
 
 .name{
-    color: white;
     font-size: 1.2rem;
     font-weight: 700;
     text-align: center;
@@ -49,7 +52,6 @@ ul{
 }
 
 .designation{
-    color: white;
     font-size: 1 rem;
     text-align: center;
     text-transform: uppercase;
@@ -57,7 +59,6 @@ ul{
 }
 
 .description{
-    color: white;
     font-size: 0.75;
     text-align: center;
     padding: 1rem;
@@ -95,35 +96,22 @@ ul{
     justify-content: left;
 }
 
-.skills
-{
-    color: white;
-    font-size: 0.75 rem;
+.skills{
+    font-size: 0.75rem;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 1 rem;
-    padding-bottom: 1 rem;
-    padding-left: 0.5 rem;
-    padding-right: 0.5 rem;
-    margin-bottom: 30px;
-    margin-top:30px;
+    color: black;
+    padding: 1rem 0.5rem;
 }
-
 .skill-name{
-    color: white;
-    font-size: 0.65 rem;
-    font-weight: 0.65 rem;
+    font-size: 0.65rem;
     text-align: left;
-    padding-bottom: 0.5 rem;
-    margin-left: 10px;
-    margin-top: 10px;
+    padding-bottom: 0.5rem;
 }
-
-progress{
+.progress-bar{
     border: 1px white solid;
     height: 4px;
-    margin-bottom: 10px;
-    width: 100%;
+    background-color: white;
 }
 
 
@@ -133,7 +121,6 @@ progress{
 .right-main-content
 {
     padding: 2rem 3rem 2rem 3rem;
-    color:white;
 }
 .right-title{
     text-transform: uppercase;
@@ -171,7 +158,7 @@ progress{
 }
 
 
-@media all and (max-width:674px)
+@media screen and (max-width:674px)
 {
     .main-content{
         display: grid;
