@@ -5,8 +5,8 @@
 
 
 .main-content{
-    margin-top:30px;
-    margin-bottom: 30px;
+    /* margin-top:30px;
+    margin-bottom: 30px; */
     display: grid;
     grid-template-columns: 300px 600px;
     justify-content:center;
@@ -20,10 +20,14 @@ ul{
 .left-section{
     background-color: #ad0101;
     padding: 30px;
+    grid-column: span 1;
 
 }
 .rigth-section{
+    grid-column-start: 300px;
+    grid-column-end: 1000px;
     background-color: #f13535;
+    grid-column: span 1 / span 2;
 }
 .imgv{
     padding: 1rem;
